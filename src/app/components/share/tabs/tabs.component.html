@@ -4,6 +4,7 @@
       class="nav-link"
       href="#"
       [ngClass]="{ active: currentTab == 'tab-pokemons' }"
+      (click)="currentTab='tab-pokemons'"
       >Pokemons
     </a>
   </li>
@@ -12,6 +13,7 @@
       class="nav-link"
       href="#"
       [ngClass]="{ active: currentTab == 'tab-favorites' }"
+      (click)="currentTab='tab-favorites'"
       >Favoritos
     </a>
   </li>
